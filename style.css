@@ -42,17 +42,30 @@ body{
 .Hamburger{
     display: none;
 }
+.Hamburger span{
+    background: rgb(0, 0, 0);
+    height: 3px;
+    width: 25px;
+    margin: 4px;
+    border-radius: 3px;
+}
+
 @media (max-width: 558px){
-   
-    
+    .Hamburger{
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    } 
     .nav-link{
         display: none;
     }
     .navbar ul{
+        border: 1px solid black;
         display :none;
         flex-direction: column;
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(231, 230, 230);
         position: absolute;
+        gap: 30px;
         top: 60px;
         right: 20px;
         padding: 15px;
@@ -61,26 +74,16 @@ body{
     .nav.active{
         display: flex ;
     }
-    .Hamburger{
-        display: flex; 
-        flex-direction: column;
-        cursor: pointer;
-    }
-    .Hamburger span{
-        background: rgb(0, 0, 0);
-        height: 3px;
-        width: 25px;
-        margin: 4px;
-        border-radius: 3px;
-    }
+    
 }
 
 
 .Info:hover{
     transition: all 0.25s;
-    color: gold;
+    color:  rgb(114, 153, 157);
 }
 .Welcome-page{
+    
     background: fixed;
     text-align: center;
     display: flex; 
@@ -91,6 +94,7 @@ body{
 
     }
 #h-0{
+    cursor: ;
     background-color: gold;
     margin: auto;
     width: fit-content;    
