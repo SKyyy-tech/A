@@ -94,7 +94,7 @@ body{
 
     }
 #h-0{
-    cursor: ;
+
     background-color: gold;
     margin: auto;
     width: fit-content;    
@@ -246,7 +246,7 @@ footer{
 .project-1:hover{
     padding: 1px;  
 }
-.img-1{
+.project img{
    border-top-right-radius: 10px ;
    border-top-left-radius: 10px;
    object-fit: cover;
@@ -264,7 +264,7 @@ footer{
     flex-wrap: wrap;
     flex-direction: column;
 }
-.s-1{
+.s-1{   
     width: 40px;
     border-radius: 30px;
     padding: 20px;
@@ -276,11 +276,11 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-.s-img{
+.s-1 img{
     margin: 0;
     padding: 0;
     border-radius: 30px;
-     height: auto;
+     height: 50px;
      width: auto;
      
 }
