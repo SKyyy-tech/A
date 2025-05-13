@@ -167,7 +167,7 @@ body{
 }
 #h-2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: tomato;
+    color: black;
     font-size: x-large;
     text-align: center;
     margin: auto;
@@ -176,7 +176,7 @@ body{
 }
 .Msg{
     padding-top: 40px;
-    background-color: #333;
+    background-color: #A9A9A9;
 }
 .msg_in{
     padding: 10px;
@@ -224,7 +224,7 @@ footer{
 }
 #h-3{
     margin: 100px;
-    color: #333;
+    color: #000000;
     font-size: xx-large;
 }
 .pro{
@@ -254,38 +254,57 @@ footer{
    width: 280px;
 }
 .Services{
-    margin-left: 100px;
-    margin-right: 60px;
     display: flex;
-    gap: 50px;
-    text-align: center;
-    justify-content: center;
-    display:flex ; 
     flex-wrap: wrap;
-    flex-direction: column;
+    justify-content: center;
+    flex-direction: row;
 }
 .s-1{   
-    width: 40px;
-    border-radius: 30px;
-    padding: 20px;
-    gap: 50px;
-    width: fit-content;
-    margin: auto;
-    background: #000000;
+    
+    border: 1px #333 solid;
+    border-radius: 10px;
+    background-color: black;
     color: white;
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
+    margin: 30px;
+    width: 250px; 
+   
 }
 .s-1 img{
-    margin: 0;
-    padding: 0;
-    border-radius: 30px;
-     height: 50px;
-     width: auto;
-     
+    border-top-right-radius: 10px ;
+   border-top-left-radius: 10px;
+   object-fit: cover;
+   height: 200px;
+   width: 250px;
+   
 }
 #s-h{
-    
+    margin: 60px;
+    text-align: center;
     font-size: xx-large;
+    font-weight: bold;
+}
+
+.Review{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+.r_1{
+    border: 1px #333 solid;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 30px;
+    width: 250px; 
+}
+.r_1 img{
+   border-top-right-radius: 10px ;
+   border-top-left-radius: 10px;
+   object-fit: cover;
+   height: 200px;
+   width: 250px;
 }
 

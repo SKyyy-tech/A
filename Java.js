@@ -82,10 +82,43 @@ const s_container = document.getElementById("Services_container");
  services.forEach(service => {
     const s_card = document.createElement("div");
     s_card.className = "s-1";
-    s_card.innerHTMl =`
+    s_card.innerHTML  =`
         <img src="${service.image}" alt="${service.title}" />
         <h3>${service.title}</h3>
         <p>${service.description}</p>
     `;
     s_container.appendChild(s_card);
  });
+
+
+ const reviews = [
+
+    {
+        image : "H.jpg",
+        title : "George Washington",
+        description : "\"W website G noboday trippin while checkout this fine shyt\""
+    },
+     {
+        image : "H.jpg",
+        title : "George Washington",
+        description : "\"W website G noboday trippin while checkout this fine shyt\""
+    },
+     {
+        image : "H.jpg",
+        title : "George Washington",
+        description : "\"W website G noboday trippin while checkout this fine shyt\""
+    }, 
+
+ ]
+ const r_container = document.getElementById("Review_Container");
+
+ reviews.forEach(review => {
+    const r_card = document.createElement("div");
+    r_card.classname = "r_1";
+    r_card.innerHTML =`
+       <img src="${review.image}" alt="${review.title}" />
+       <h3>${review.title}</h3>
+       <p>${review.description}</p>
+    `;
+    r_container.appendChild(r_card);
+ })
