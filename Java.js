@@ -26,17 +26,17 @@ type();
 const projects = [
 
     {
-     image: "H.jpg",
+     image: "Images/H.jpg",
      title: "Animated navbar",
      description: "A responsive navigation bar with smooth animation and uniques design"
     },
     {
-     image: "Cheese.jpg",
+     image: "Images/Cheese.jpg",
      title: "HTML CSS",
      description: "A responsive navigation bar with smooth animation and uniques design"
     },
     {
-     image: "Ham.jpg",
+     image: "Images/Ham.jpg",
      title: "Animated UI",
      description: "A responsive navigation bar with smooth animation and uniques design"
     }
@@ -60,17 +60,17 @@ projects.forEach(project => {
 const services = [
 
     {
-       image : "Cucumber.jpg",
+       image : "Images/Cucumber.jpg",
        title : "HTML",
        description: "HTML short for HyperText Markup Langauges"
     },
     {
-        image : "Nuke.jpg",
+        image : "Images/Nuke.jpg",
         title : "CSS",
         description :"CSS short for Cascading Style Sheet"
     },
     {
-        image : "Cheese.jpg",
+        image : "Images/Cheese.jpg",
         title : "JS",
         description : "JS short for Java Script"
     }
@@ -94,17 +94,17 @@ const s_container = document.getElementById("Services_container");
  const reviews = [
 
     {
-        image : "H.jpg",
+        image : "Images/H.jpg",
         title : "George Washington",
         description : "\"W website G noboday trippin while checkout this fine shyt\""
     },
      {
-        image : "H.jpg",
+        image : "Images/H.jpg",
         title : "George Washington",
         description : "\"W website G noboday trippin while checkout this fine shyt\""
     },
      {
-        image : "H.jpg",
+        image : "Images/H.jpg",
         title : "George Washington",
         description : "\"W website G noboday trippin while checkout this fine shyt\""
     }, 
@@ -114,7 +114,7 @@ const s_container = document.getElementById("Services_container");
 
  reviews.forEach(review => {
     const r_card = document.createElement("div");
-    r_card.classname = "r_1";
+    r_card.className = "r-1";
     r_card.innerHTML =`
        <img src="${review.image}" alt="${review.title}" />
        <h3>${review.title}</h3>
